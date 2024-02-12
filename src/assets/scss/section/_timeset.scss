@@ -1,0 +1,91 @@
+.timeset_wrap {
+    padding: 60px 30px;
+    position: relative;
+
+    >img {
+        position: absolute;
+        width: 25px;
+        right: 0;
+    }
+
+    >p {
+        font-size: 20px;
+        margin-top: 60px;
+        text-align: center;
+        font-weight: 700;
+        color: var(--black300);
+
+        strong {
+            font-weight: 900;
+            color: var(--black);
+        }
+    }
+
+    .map {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        >div {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                width: 25px;
+            }
+        }
+    }
+
+    .bar {
+        margin-top: 10px;
+        width: 100%;
+        height: 18px;
+        border-radius: 50px;
+        background-color: var(--black400);
+    }
+
+    .timeset {
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+
+        input {
+            border-radius: 10px;
+            padding: 18px 20px 14px;
+            background-color: var(--white100);
+            width: 100%;
+            outline: none;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        ::placeholder {
+            font-size: 15px;
+        }
+
+    }
+
+    .change {
+        margin-top: 10px;
+
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            color: var(--maincolor01);
+        }
+
+        button {
+            margin-top: 5px;
+            width: 100%;
+            background-color: var(--maincolor01);
+            padding: 18px 0 15px;
+            border-radius: 10px;
+            color: var(--white);
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+}
