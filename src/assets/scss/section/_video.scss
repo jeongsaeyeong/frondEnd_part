@@ -142,3 +142,14 @@
         }
     }
 }
+
+.app {
+    display: flex;
+    justify-content: center;
+    background-color: #000000ce;
+
+    .VideoDetail_wrap {
+        transform: rotate(90deg);
+        margin: auto;
+    }
+}
