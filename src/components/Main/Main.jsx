@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link, useNavigate, useNavigation } from 'react-router-dom'
-import ReactPlayer from 'react-player'
 
 import logoImage from '../../assets/img/logo.png'
 import Human from '../../assets/img/main_human.svg'
