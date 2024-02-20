@@ -42,7 +42,7 @@ const Main = () => {
             <div className="header">
                 <img src={logoImage} alt="Logo" />
                 <button>Start</button>
-                <Link to='/mypage'><img src={Human} alt="human" />마이페이지</Link>
+                <Link to='/join'><img src={Human} alt="human" />마이페이지</Link>
             </div>
             <div className="main">
                 <div className='button'>
